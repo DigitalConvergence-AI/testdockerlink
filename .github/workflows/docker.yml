@@ -36,7 +36,7 @@ jobs:
             docker build . -t prabhurajang/testreactdocker
       - name: Docker push
         run: |
-          docker push prabhurajang/testreactdocke
+          docker push prabhurajang/testreactdocker
          
               
 
