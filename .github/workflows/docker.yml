@@ -37,9 +37,7 @@ jobs:
       - name: Docker push
         run: |
           docker push prabhurajang/myreactapp
-      - name: Kubernetos apply
-        run: |
-          kubectl apply -f prabhurajang/myreactapp          
+       
          
               
 
