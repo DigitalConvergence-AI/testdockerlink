@@ -4,7 +4,7 @@ metadata:
   name: myreactapp
   namespace: default
 spec:
-  replicas: 4
+  replicas: 10
   selector:
     matchLabels:
       app: myreactapp
@@ -30,6 +30,6 @@ spec:
   selector:
     app: myreactapp
   ports:
-  - port: 5000
+  - port: 80
     targetPort: 5000
     nodePort: 30004
