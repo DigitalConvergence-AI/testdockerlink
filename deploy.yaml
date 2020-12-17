@@ -4,7 +4,7 @@ metadata:
   name: myreactapp
   namespace: default
 spec:
-  replicas: 10
+  replicas: 3
   selector:
     matchLabels:
       app: myreactapp
